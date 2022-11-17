@@ -7,12 +7,35 @@ public class ProjetoAtv4 {
 		
 		Scanner sc = new Scanner (System.in);
 		String nome;
-		
-		System.out.println("Digite uma palavra");
+		System.out.println("Digite seu nome");
 		nome = sc.next();
-		
+//		--------------------------------------
+		Scanner id = new Scanner (System.in);
+		String idade;
+		System.out.println("Digite sua idade");
+		idade = id.next();
+//		--------------------------------------
+		Scanner en = new Scanner (System.in);
+		String endereco;
+		System.out.println("Digite seu Endereço");
+		endereco = en.next();
+//		--------------------------------------
+		Scanner tl = new Scanner (System.in);
+		String telefone;
+		System.out.println("Digite seu telefone");
+		telefone = tl.next();
+//		--------------------------------------
 		System.out.println("Você digitou: " + nome);
 		sc.close();
+//		--------------------------------------
+		System.out.println("Você digitou: " + idade);
+		id.close();
+//		--------------------------------------
+		System.out.println("Você digitou: " + endereco);
+		en.close();
+//		--------------------------------------
+		System.out.println("Você digitou: " + telefone);
+		tl.close();
 			
 	}
 }
