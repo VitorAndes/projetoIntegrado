@@ -25,16 +25,16 @@ public class ProjetoAtv4 {
 		System.out.println("Digite seu telefone");
 		telefone = tl.next();
 //		--------------------------------------
-		System.out.println("Você digitou: " + nome);
+		System.out.println("Seu Nome é: " + nome);
 		sc.close();
 //		--------------------------------------
-		System.out.println("Você digitou: " + idade);
+		System.out.println("Sua Idade é: " + idade);
 		id.close();
 //		--------------------------------------
-		System.out.println("Você digitou: " + endereco);
+		System.out.println("Seu Endereço é: " + endereco);
 		en.close();
 //		--------------------------------------
-		System.out.println("Você digitou: " + telefone);
+		System.out.println("Seu Telefone é: " + telefone);
 		tl.close();
 			
 	}
